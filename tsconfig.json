@@ -8,8 +8,8 @@
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     // Not sure if I need types or typeRoots.
-    // "types": ["vite/client", "@types/jest"],
-    "typeRoots": ["./node_modules/@types", "./types"],
+    "types": ["vite/client", "@types/jest"],
+    // "typeRoots": ["./node_modules/@types", "./types"],
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
